@@ -1,0 +1,31 @@
+Client application to a Matrix server by Bamba William
+
+This application allow you to : 
+
+-log in
+-Create rooms
+-See the rooms you created 
+-Send Messages 
+-Show recent messages of the rooms 
+
+npm install of the json package to install all dependencies .
+
+Source : 
+
+https://matrix.org/docs/spec/r0.0.0/client_server.html
+
+https://scrimba.com/
+
+https://colorlib.com/wp/
+
+To create an user : 
+
+An example :
+
+In the terminal : 
+
+curl -XPOST -d '{"username":"example", "password":"wordpass", "auth": {"type":"m.login.dummy"}}' "https://localhost:8448/_matrix/client/r0/register"
+
+Username : test@github.com 
+Password : password 
+
